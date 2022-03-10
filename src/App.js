@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import image1 from './images/1.jpg'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <img src={image1}/>
         </a>
       </header>
     </div>
